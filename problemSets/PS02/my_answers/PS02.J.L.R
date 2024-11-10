@@ -49,12 +49,7 @@ p_value
 # Set significance level
 alpha <- 0.1
 
-# Interpret the result
-if (p_value < alpha) {
-  cat("Reject the null hypothesis at α =", alpha, "\n")
-} else {
-  cat("Fail to reject the null hypothesis at α =", alpha, "\n")
-}
+
 
 #The p-value(1.1502282) is greater than alpha(0.1),so we cannot reject the null hypothesis,
 #and there is no significant association between a driver's social class and the police officer's behavior.
